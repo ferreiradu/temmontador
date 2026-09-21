@@ -55,26 +55,22 @@
     /* BUSCA */
 
     .busca {
-        flex-direction: column;
+    flex-direction: column;
+    padding: 8px;
+    border-radius: 16px;
+    gap: 4px;
+}
 
-        padding: 8px;
+.busca input {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
 
-        border-radius: 16px;
-    }
-
-    .busca input {
-        width: 100%;
-
-        height: 55px;
-
-        text-align: center;
-    }
-
-    .busca button {
-        width: 100%;
-
-        height: 55px;
-    }
+.busca button {
+    width: 100%;
+    height: 45px;
+}
 
 
     /* SEÇÕES */
