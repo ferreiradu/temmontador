@@ -35,9 +35,10 @@
     /* HERO */
 
     .hero {
-        min-height: 600px;
-
-        padding: 70px 20px;
+    min-height: auto;
+        
+    padding: 55px 20px 45px;
+}
     }
 
     .hero h1 {
