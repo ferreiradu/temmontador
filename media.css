@@ -35,10 +35,9 @@
     /* HERO */
 
     .hero {
-    min-height: auto;
-        
-    padding: 55px 20px 45px;
-}
+        min-height: 600px;
+
+        padding: 70px 20px;
     }
 
     .hero h1 {
@@ -54,25 +53,31 @@
 
     /* BUSCA */
 
+   
+
     .busca {
-    flex-direction: column;
-    padding: 12px;
-    border-radius: 16px;
-    gap: 4px;
-}
+        flex-direction: column;
 
-.busca input {
-    width: 100%;
-    height: 60px;
-    text-align: center;
-    padding-bottom: 10px;
-    
-}
+        padding: 12px;
 
-.busca button {
-    width: 100%;
-    height: 60px;
-}
+        border-radius: 16px;
+    }
+
+    .busca input {
+        width: 100%;
+
+        height: 60px;
+
+        text-align: center;
+
+        padding-bottom: 10px;
+    }
+
+    .busca button {
+        width: 100%;
+
+        height: 60px;
+    }
 
 
     /* SEÇÕES */
@@ -115,6 +120,8 @@
         padding: 70px 20px;
     }
 
+   
+
 }
 
 
@@ -136,5 +143,6 @@
         font-size: 1.8rem;
     }
 
+    
 }
 
