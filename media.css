@@ -1,13 +1,25 @@
 
+/* =========================================================
+   RESPONSIVO - TABLET
+========================================================= */
+
 @media (max-width: 900px) {
+
+    /* PASSOS */
 
     .passos {
         grid-template-columns: 1fr;
     }
 
+
+    /* SERVIÇOS DA PÁGINA PRINCIPAL */
+
     .servicos {
         grid-template-columns: repeat(2, 1fr);
     }
+
+
+    /* BENEFÍCIOS */
 
     .beneficios {
         grid-template-columns: repeat(2, 1fr);
@@ -15,7 +27,16 @@
 
 }
 
+
+/* =========================================================
+   RESPONSIVO - CELULAR
+========================================================= */
+
 @media (max-width: 700px) {
+
+    /* =====================================================
+       MENU PRINCIPAL
+    ===================================================== */
 
     .menu {
         height: 65px;
@@ -23,16 +44,21 @@
         padding: 0 20px;
     }
 
+
     .menu nav {
         display: none;
     }
+
 
     .logo {
         font-size: 1.3rem;
     }
 
 
-    /* HERO */
+
+    /* =====================================================
+       HERO
+    ===================================================== */
 
     .hero {
         min-height: 600px;
@@ -40,22 +66,26 @@
         padding: 70px 20px;
     }
 
+
     .hero h1 {
         font-size: 2.5rem;
 
         letter-spacing: -1.5px;
     }
 
+
     .hero p {
         font-size: 1rem;
     }
 
 
-    /* BUSCA */
 
-   
+    /* =====================================================
+       BARRA DE BUSCA
+    ===================================================== */
 
     .busca {
+
         flex-direction: column;
 
         padding: 12px;
@@ -63,66 +93,387 @@
         border-radius: 16px;
     }
 
+
     .busca input {
+
         width: 100%;
 
         height: 60px;
 
         text-align: center;
 
-        padding-bottom: 10px;
+        padding: 0 15px 10px;
     }
 
+
     .busca button {
+
         width: 100%;
 
         height: 60px;
     }
 
 
-    /* SEÇÕES */
+
+    /* =====================================================
+       SEÇÕES
+    ===================================================== */
 
     .secao {
         padding: 70px 0;
     }
 
 
-    /* SERVIÇOS */
+
+    /* =====================================================
+       SERVIÇOS
+    ===================================================== */
 
     .servicos {
+
         grid-template-columns: 1fr;
 
         margin-top: 40px;
     }
 
 
-    /* BENEFÍCIOS */
+
+    /* =====================================================
+       BENEFÍCIOS
+    ===================================================== */
 
     .beneficios {
+
         grid-template-columns: 1fr;
 
         margin-top: 40px;
     }
 
 
-    /* CHAMADA */
+
+    /* =====================================================
+       CHAMADA DE BUSCA
+    ===================================================== */
 
     .chamada-busca {
+
         padding: 25px 18px;
 
         border-radius: 20px;
     }
 
 
-    /* CTA */
+
+    /* =====================================================
+       CTA
+    ===================================================== */
 
     .cta {
+
         padding: 70px 20px;
     }
 
-   
+
+
+    /* =====================================================
+       PERFIL - CABEÇALHO
+    ===================================================== */
+
+    .perfil-menu {
+
+        height: 64px;
+
+        padding: 0 18px;
+    }
+
+
+    .perfil-menu .logo {
+
+        font-size: 1.15rem;
+    }
+
+
+    .voltar {
+
+        font-size: 0.72rem;
+    }
+
+
+
+    /* =====================================================
+       PERFIL - ÁREA PRINCIPAL
+    ===================================================== */
+
+    .perfil {
+
+        padding: 35px 15px 60px;
+    }
+
+
+
+    /* =====================================================
+       PERFIL - HERO
+    ===================================================== */
+
+    .perfil-hero {
+
+        padding: 35px 22px;
+
+        gap: 25px;
+
+        border-radius: 22px;
+    }
+
+
+
+    /* =====================================================
+       FOTO DO MONTADOR
+    ===================================================== */
+
+    .perfil-foto img {
+
+        width: 145px;
+        height: 145px;
+
+        border-width: 5px;
+    }
+
+
+
+    /* =====================================================
+       TAG
+    ===================================================== */
+
+    .perfil-tag {
+
+        font-size: 0.65rem;
+
+        padding: 6px 11px;
+    }
+
+
+
+    /* =====================================================
+       NOME
+    ===================================================== */
+
+    .perfil-info h1 {
+
+        font-size: 2rem;
+    }
+
+
+
+    /* =====================================================
+       CIDADE
+    ===================================================== */
+
+    .perfil-info h2 {
+
+        font-size: 1.05rem;
+
+        line-height: 1.4;
+    }
+
+
+
+    /* =====================================================
+       DESCRIÇÃO
+    ===================================================== */
+
+    .perfil-info p {
+
+        font-size: 0.9rem;
+
+        line-height: 1.65;
+    }
+
+
+
+    /* =====================================================
+       WHATSAPP
+    ===================================================== */
+
+    .perfil-info .btn-whatsapp {
+
+        width: 100%;
+
+        min-height: 56px;
+
+        font-size: 0.95rem;
+    }
+
+
+
+    /* =====================================================
+       SEÇÕES DO PERFIL
+    ===================================================== */
+
+    .perfil-secao {
+
+        margin-top: 55px;
+    }
+
+
+    .perfil-secao h2 {
+
+        font-size: 1.75rem;
+    }
+
+
+    .perfil-secao > p {
+
+        font-size: 0.9rem;
+    }
+
+
+
+    /* =====================================================
+       SERVIÇOS DO PERFIL
+    ===================================================== */
+
+    .servicos-grid {
+
+        width: 100%;
+        max-width: 500px;
+        margin: 30px auto 0;
+        grid-template-columns: 1fr;
+        gap: 14px;
+        
+    }
+
+
+    .servico-card {
+
+        padding: 22px;
+    }
+
+
+    .servico-card i {
+
+        width: 44px;
+        height: 44px;
+
+        margin-bottom: 14px;
+    }
+
+
+    .servico-card h3 {
+
+        font-size: 1rem;
+    }
+
+
+    .servico-card p {
+
+        font-size: 0.84rem;
+    }
+
+
+
+    /* =====================================================
+       ÁREA DE ATENDIMENTO
+    ===================================================== */
+
+    .area-atendimento {
+
+        margin-top: 55px;
+
+        padding: 25px 20px;
+
+        align-items: flex-start;
+    }
+
+
+    .area-atendimento > i {
+
+        width: 45px;
+        height: 45px;
+
+        font-size: 1rem;
+    }
+
+
+    .area-atendimento h2 {
+
+        font-size: 1.15rem;
+    }
+
+
+    .area-atendimento p {
+
+        font-size: 0.82rem;
+    }
+
+
+
+    /* =====================================================
+       DIFERENCIAIS
+    ===================================================== */
+
+    .diferenciais-grid {
+
+        grid-template-columns: 1fr;
+
+        gap: 14px;
+
+        margin-top: 30px;
+    }
+
+
+    .diferenciais-grid > div {
+
+        padding: 25px 20px;
+    }
+
+
+
+    /* =====================================================
+       CTA DO PERFIL
+    ===================================================== */
+
+    .perfil-cta {
+
+        margin-top: 60px;
+
+        padding: 40px 20px;
+
+        border-radius: 20px;
+    }
+
+
+    .perfil-cta h2 {
+
+        font-size: 1.8rem;
+    }
+
+
+    .perfil-cta p {
+
+        font-size: 0.85rem;
+    }
+
+
+    .perfil-cta .btn-whatsapp {
+
+        width: 100%;
+
+        min-height: 56px;
+    }
+
+
+
+    /* =====================================================
+       RODAPÉ DO PERFIL
+    ===================================================== */
+
+    .perfil-footer {
+
+        padding: 30px 20px;
+    }
 
 }
+
 
 
 /* =========================================================
@@ -131,18 +482,79 @@
 
 @media (max-width: 400px) {
 
+    /* HERO PRINCIPAL */
+
     .hero h1 {
+
         font-size: 2.15rem;
     }
 
+
     .destaque {
+
         font-size: 0.65rem;
     }
 
+
     .secao h2 {
+
         font-size: 1.8rem;
     }
 
-    
+
+
+    /* PERFIL */
+
+    .perfil-info h1 {
+
+        font-size: 1.8rem;
+    }
+
+
+    .perfil-info h2 {
+
+        font-size: 0.98rem;
+    }
+
+
+    .perfil-foto img {
+
+        width: 125px;
+        height: 125px;
+    }
+
+
+    .perfil-hero {
+
+        padding: 30px 18px;
+    }
+
+
+    .perfil-secao h2 {
+
+        font-size: 1.6rem;
+    }
+
+
+    .area-atendimento {
+
+        gap: 15px;
+    }
+
+
+    .area-atendimento > i {
+
+        width: 40px;
+        height: 40px;
+
+        font-size: 0.9rem;
+    }
+
+
+    .perfil-cta {
+
+        padding: 35px 18px;
+    }
+
 }
 
