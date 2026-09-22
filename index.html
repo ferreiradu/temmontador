@@ -11,8 +11,8 @@
     <meta name="description"
         content="Encontre montadores de móveis em cidades de todo o Brasil. Pesquise sua cidade e encontre um profissional para montagem de móveis.">
 
-    <link rel="stylesheet" href="style.css?v=1.0.1">
-    <link rel="stylesheet" href="media.css?v=1.0.1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
 </head>
 
 <body>
@@ -62,7 +62,7 @@
 
                 <!-- BUSCA -->
 
-                <form class="busca" action="buscar.php" method="GET">
+                <form class="busca" onsubmit="buscarCidade(event)">
 
                     <input
                         type="text"
@@ -72,11 +72,14 @@
                         autocomplete="off"
                         required
                     >
-   
+                
                     <button type="submit">
                         Buscar
                     </button>
+                
                 </form>
+
+                
 
              
 
@@ -457,7 +460,7 @@
 
     </footer>
 
-<script src="meu.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>
