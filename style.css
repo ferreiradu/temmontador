@@ -216,7 +216,7 @@ img {
 
     background: transparent;
 
-    color: #0f172a;
+    color: #000000;
 
     font-family: inherit;
     font-size: 1rem;
@@ -224,7 +224,11 @@ img {
 
 .busca input::placeholder {
     color: #94a3b8;
+    
+   
 }
+
+
 
 .busca button {
     height: 56px;
